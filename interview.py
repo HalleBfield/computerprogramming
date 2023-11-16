@@ -16,14 +16,21 @@
 
 name = input(" What is your name? ")
 
-ready = input(" Hello {name} Are you ready to start the interview?")
+ready = input(f" Hello {name} are you ready to start the interview?")
                  
 Position = input(" What type of position are you interested in? ")
 
 experience = input("How many years of experience do you have? ")
 
-slary = input("What is your desired salary? ")
+salary = input("What is your desired salary? ")
 
 coding = input("What coding laguages do you know? ")
 
-print(f"Thank you {name} for attending this interview. Let's recap what we went over. Does this sound correct? ")
+hours = input ("How many hours can you work?")
+
+teamwork = input("Do you work well with others?")
+
+solver = input("Are you a problem solver?")
+
+traits = input("How can you contribute to the team?")
+input(f"Thank you {name} for attending this interview. Let's recap what we went over.{Position},{experience},{salary}, {coding}, {hours}, {teamwork}, {solver}, {traits}, Does this sound correct? ")
